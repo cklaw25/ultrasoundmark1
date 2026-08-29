@@ -20,3 +20,13 @@ conversation_log_session*.txt
 # report drafts (kept locally, not pushed) - except the self-written version
 *.docx
 !Ultrasound_Report_Draft_self.docx
+
+# personal notes / study material (kept locally, not pushed)
+logs/progress_log.txt
+active_recall_questions_session12.txt
+professor_checklist.txt
+project_deep_dive.txt
+project_summary.txt
+questions i had about project deep dive up till section 10.txt
+session6_qa_supplement.txt
+slides for ultrasound progress report.pdf
