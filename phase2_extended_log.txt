@@ -1,0 +1,84 @@
+pybullet build time: Jun 11 2026 16:34:32
+C:\ultrasoundmark1\run_phase2.py:81: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  a = abs(2 * np.arccos(float(np.clip(qd[0], -1.0, 1.0))))
+C:\ultrasoundmark1\run_phase2.py:81: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  a = abs(2 * np.arccos(float(np.clip(qd[0], -1.0, 1.0))))
+Setting up Phase 2 environment (FK target sampling)...
+Environment OK
+
+FK sampling efficiency: avg 21.3 attempts per target (max 163, fallback threshold: 500)
+
+Resuming Phase 2 (extended run, pos progress mult 8.0) from models/phase2_fk_targets_model ...
+Training remaining 200000 timesteps...
+
+Step    2752/200000 | Ep    10 | Reward   -68.66 | Dist 0.2302m | Angle 3.169rad | Successes 0
+Step    5752/200000 | Ep    20 | Reward   -91.29 | Dist 0.1057m | Angle 3.371rad | Successes 0
+Step    8752/200000 | Ep    30 | Reward  -105.80 | Dist 0.1787m | Angle 3.077rad | Successes 0
+Step   11752/200000 | Ep    40 | Reward   -93.28 | Dist 0.1919m | Angle 2.402rad | Successes 0
+Step   14624/200000 | Ep    50 | Reward   -82.83 | Dist 0.2494m | Angle 2.750rad | Successes 0
+Step   17624/200000 | Ep    60 | Reward   -97.45 | Dist 0.1204m | Angle 3.609rad | Successes 0
+Step   20624/200000 | Ep    70 | Reward   -92.50 | Dist 0.1606m | Angle 1.786rad | Successes 0
+Step   23517/200000 | Ep    80 | Reward   -63.57 | Dist 0.1683m | Angle 2.161rad | Successes 0
+Step   26246/200000 | Ep    90 | Reward   -76.36 | Dist 0.1490m | Angle 3.547rad | Successes 0
+Step   29139/200000 | Ep   100 | Reward   -69.98 | Dist 0.2134m | Angle 4.063rad | Successes 0
+Step   32139/200000 | Ep   110 | Reward   -92.96 | Dist 0.2050m | Angle 3.232rad | Successes 0
+Step   34945/200000 | Ep   120 | Reward   -79.23 | Dist 0.2102m | Angle 3.442rad | Successes 0
+Step   37945/200000 | Ep   130 | Reward   -91.38 | Dist 0.1623m | Angle 2.777rad | Successes 0
+Step   40920/200000 | Ep   140 | Reward   -65.68 | Dist 0.1963m | Angle 2.803rad | Successes 0
+Step   43882/200000 | Ep   150 | Reward   -80.37 | Dist 0.1633m | Angle 4.140rad | Successes 0
+Step   46882/200000 | Ep   160 | Reward   -95.66 | Dist 0.0888m | Angle 2.790rad | Successes 0
+Step   49670/200000 | Ep   170 | Reward   -81.93 | Dist 0.2361m | Angle 3.211rad | Successes 0
+Step   52526/200000 | Ep   180 | Reward   -61.04 | Dist 0.2270m | Angle 3.822rad | Successes 0
+Step   55526/200000 | Ep   190 | Reward   -91.57 | Dist 0.1782m | Angle 3.739rad | Successes 0
+Step   58377/200000 | Ep   200 | Reward   -54.42 | Dist 0.1478m | Angle 4.355rad | Successes 0
+Step   61377/200000 | Ep   210 | Reward   -82.18 | Dist 0.2099m | Angle 3.281rad | Successes 0
+Step   64377/200000 | Ep   220 | Reward   -96.77 | Dist 0.1469m | Angle 2.647rad | Successes 0
+Step   67274/200000 | Ep   230 | Reward   -71.99 | Dist 0.1060m | Angle 2.756rad | Successes 0
+Step   70274/200000 | Ep   240 | Reward   -79.52 | Dist 0.1497m | Angle 3.080rad | Successes 0
+Step   73274/200000 | Ep   250 | Reward  -100.99 | Dist 0.2330m | Angle 3.234rad | Successes 0
+Step   76274/200000 | Ep   260 | Reward   -84.88 | Dist 0.0826m | Angle 3.669rad | Successes 0
+Step   79193/200000 | Ep   270 | Reward   -62.50 | Dist 0.2466m | Angle 2.872rad | Successes 0
+Step   82193/200000 | Ep   280 | Reward   -76.47 | Dist 0.2165m | Angle 3.449rad | Successes 0
+Step   85193/200000 | Ep   290 | Reward   -76.20 | Dist 0.2497m | Angle 3.012rad | Successes 0
+Step   88193/200000 | Ep   300 | Reward   -86.10 | Dist 0.1356m | Angle 3.036rad | Successes 0
+Step   91160/200000 | Ep   310 | Reward   -68.89 | Dist 0.1684m | Angle 4.775rad | Successes 0
+Step   94160/200000 | Ep   320 | Reward   -81.92 | Dist 0.1025m | Angle 2.288rad | Successes 0
+Step   97098/200000 | Ep   330 | Reward   -66.84 | Dist 0.1307m | Angle 3.089rad | Successes 0
+Step  100098/200000 | Ep   340 | Reward   -75.44 | Dist 0.1674m | Angle 3.190rad | Successes 0
+Step  103098/200000 | Ep   350 | Reward   -75.53 | Dist 0.2189m | Angle 3.561rad | Successes 0
+Step  106098/200000 | Ep   360 | Reward   -85.43 | Dist 0.2417m | Angle 3.182rad | Successes 0
+Step  109098/200000 | Ep   370 | Reward   -81.75 | Dist 0.2372m | Angle 3.431rad | Successes 0
+Step  111933/200000 | Ep   380 | Reward   -71.04 | Dist 0.2225m | Angle 3.752rad | Successes 0
+Step  114933/200000 | Ep   390 | Reward   -86.95 | Dist 0.2517m | Angle 3.092rad | Successes 0
+Step  117933/200000 | Ep   400 | Reward   -78.40 | Dist 0.1997m | Angle 3.263rad | Successes 0
+Step  120933/200000 | Ep   410 | Reward   -74.63 | Dist 0.1268m | Angle 2.640rad | Successes 0
+Step  123933/200000 | Ep   420 | Reward   -83.21 | Dist 0.1598m | Angle 3.768rad | Successes 0
+Step  126688/200000 | Ep   430 | Reward   -73.61 | Dist 0.2393m | Angle 3.734rad | Successes 0
+Step  129630/200000 | Ep   440 | Reward   -83.67 | Dist 0.1662m | Angle 3.454rad | Successes 0
+Step  132508/200000 | Ep   450 | Reward   -62.41 | Dist 0.1052m | Angle 2.346rad | Successes 0
+Step  135508/200000 | Ep   460 | Reward   -88.28 | Dist 0.0928m | Angle 3.083rad | Successes 0
+Step  138508/200000 | Ep   470 | Reward   -79.35 | Dist 0.0970m | Angle 4.016rad | Successes 0
+Step  141508/200000 | Ep   480 | Reward   -89.33 | Dist 0.1167m | Angle 2.630rad | Successes 0
+Step  144217/200000 | Ep   490 | Reward   -78.18 | Dist 0.2613m | Angle 2.687rad | Successes 0
+Step  147217/200000 | Ep   500 | Reward   -91.95 | Dist 0.0934m | Angle 3.537rad | Successes 0
+Step  150217/200000 | Ep   510 | Reward   -84.04 | Dist 0.2463m | Angle 3.860rad | Successes 0
+Step  153217/200000 | Ep   520 | Reward   -79.09 | Dist 0.2182m | Angle 3.883rad | Successes 0
+Step  156217/200000 | Ep   530 | Reward  -101.00 | Dist 0.0649m | Angle 3.725rad | Successes 0
+Step  159217/200000 | Ep   540 | Reward   -77.02 | Dist 0.2022m | Angle 2.882rad | Successes 0
+Step  162217/200000 | Ep   550 | Reward   -77.33 | Dist 0.1870m | Angle 2.418rad | Successes 0
+Step  165217/200000 | Ep   560 | Reward   -78.24 | Dist 0.2695m | Angle 2.172rad | Successes 0
+Step  168217/200000 | Ep   570 | Reward   -87.11 | Dist 0.2627m | Angle 2.596rad | Successes 0
+Step  171158/200000 | Ep   580 | Reward   -70.20 | Dist 0.1622m | Angle 1.998rad | Successes 0
+Step  173971/200000 | Ep   590 | Reward   -45.73 | Dist 0.2372m | Angle 3.864rad | Successes 0
+Step  176509/200000 | Ep   600 | Reward   -67.23 | Dist 0.1020m | Angle 3.113rad | Successes 0
+Step  179509/200000 | Ep   610 | Reward   -75.02 | Dist 0.2140m | Angle 2.794rad | Successes 0
+Step  182359/200000 | Ep   620 | Reward   -55.76 | Dist 0.2468m | Angle 3.072rad | Successes 0
+Step  185359/200000 | Ep   630 | Reward   -82.05 | Dist 0.2618m | Angle 2.546rad | Successes 0
+Step  188359/200000 | Ep   640 | Reward   -84.55 | Dist 0.2900m | Angle 2.225rad | Successes 0
+Step  191359/200000 | Ep   650 | Reward   -85.27 | Dist 0.1258m | Angle 3.238rad | Successes 0
+Step  194359/200000 | Ep   660 | Reward   -87.07 | Dist 0.1481m | Angle 3.350rad | Successes 0
+Step  197359/200000 | Ep   670 | Reward   -84.30 | Dist 0.2350m | Angle 3.202rad | Successes 0
+
+Phase 2 done: 0 successes / 678 episodes (0.0%)
+Model saved to models/phase2_extended_model
+argv[0]=

@@ -1,0 +1,53 @@
+pybullet build time: Jun 11 2026 16:34:32
+Setting up Phase 2 environment (IK warm-start resume)...
+argv[0]=
+Environment OK
+
+Resuming IK warm-start RL fine-tune from models/checkpoints_ik_warmstart/ik_warmstart_ckpt_50000_steps (step 50000/200000)...
+Training remaining 150000 timesteps (to reach the original 200000 target)...
+
+Step    2480/150000 | Ep    10 | Reward   -65.61 | Dist 0.0998m | Angle 2.997rad | Successes 0
+Step    5260/150000 | Ep    20 | Reward   -99.55 | Dist 0.2187m | Angle 3.059rad | Successes 0
+Step    8113/150000 | Ep    30 | Reward   -96.88 | Dist 0.1657m | Angle 2.228rad | Successes 0
+Step   11113/150000 | Ep    40 | Reward  -120.53 | Dist 0.2090m | Angle 2.692rad | Successes 0
+Step   14113/150000 | Ep    50 | Reward  -112.96 | Dist 0.1974m | Angle 2.984rad | Successes 0
+Step   16867/150000 | Ep    60 | Reward   -65.22 | Dist 0.2759m | Angle 3.039rad | Successes 0
+Step   19474/150000 | Ep    70 | Reward   -64.28 | Dist 0.2002m | Angle 2.255rad | Successes 0
+Step   22287/150000 | Ep    80 | Reward   -63.84 | Dist 0.1748m | Angle 2.526rad | Successes 0
+Step   24828/150000 | Ep    90 | Reward   -49.64 | Dist 0.2756m | Angle 2.917rad | Successes 0
+Step   27724/150000 | Ep   100 | Reward   -76.79 | Dist 0.1916m | Angle 1.992rad | Successes 0
+Step   30719/150000 | Ep   110 | Reward   -75.10 | Dist 0.1547m | Angle 2.749rad | Successes 0
+Step   33444/150000 | Ep   120 | Reward   -80.64 | Dist 0.1950m | Angle 3.073rad | Successes 0
+Step   36015/150000 | Ep   130 | Reward   -40.85 | Dist 0.2448m | Angle 2.694rad | Successes 0
+Step   39015/150000 | Ep   140 | Reward   -79.15 | Dist 0.2114m | Angle 2.750rad | Successes 0
+Step   41614/150000 | Ep   150 | Reward   -51.06 | Dist 0.0705m | Angle 2.078rad | Successes 0
+Step   44539/150000 | Ep   160 | Reward   -94.14 | Dist 0.2129m | Angle 3.112rad | Successes 0
+Step   47539/150000 | Ep   170 | Reward   -81.60 | Dist 0.2400m | Angle 2.862rad | Successes 0
+Step   50334/150000 | Ep   180 | Reward   -65.83 | Dist 0.2091m | Angle 3.070rad | Successes 0
+Step   52984/150000 | Ep   190 | Reward   -53.83 | Dist 0.1715m | Angle 2.858rad | Successes 0
+Step   55553/150000 | Ep   200 | Reward   -41.91 | Dist 0.1782m | Angle 2.769rad | Successes 0
+Step   58532/150000 | Ep   210 | Reward   -68.44 | Dist 0.1301m | Angle 1.399rad | Successes 0
+Step   61488/150000 | Ep   220 | Reward   -60.26 | Dist 0.1127m | Angle 2.999rad | Successes 0
+Step   64235/150000 | Ep   230 | Reward   -60.85 | Dist 0.2256m | Angle 2.319rad | Successes 0
+Step   67235/150000 | Ep   240 | Reward   -81.46 | Dist 0.2648m | Angle 3.039rad | Successes 0
+Step   70235/150000 | Ep   250 | Reward   -84.32 | Dist 0.1098m | Angle 2.279rad | Successes 0
+Step   72621/150000 | Ep   260 | Reward   -26.94 | Dist 0.1818m | Angle 3.028rad | Successes 0
+Step   75097/150000 | Ep   270 | Reward   -17.90 | Dist 0.2473m | Angle 2.954rad | Successes 0
+Step   78006/150000 | Ep   280 | Reward   -79.17 | Dist 0.1971m | Angle 2.910rad | Successes 0
+Step   80829/150000 | Ep   290 | Reward   -61.02 | Dist 0.2187m | Angle 2.986rad | Successes 0
+Step   83626/150000 | Ep   300 | Reward   -69.72 | Dist 0.1773m | Angle 2.475rad | Successes 0
+Step   86447/150000 | Ep   310 | Reward   -56.20 | Dist 0.1463m | Angle 2.837rad | Successes 0
+Step   89005/150000 | Ep   320 | Reward   -50.65 | Dist 0.1503m | Angle 2.765rad | Successes 0
+Step   91695/150000 | Ep   330 | Reward   -57.70 | Dist 0.2118m | Angle 1.954rad | Successes 0
+Step   94683/150000 | Ep   340 | Reward   -61.71 | Dist 0.0662m | Angle 2.706rad | Successes 0
+Step   97683/150000 | Ep   350 | Reward   -77.81 | Dist 0.1352m | Angle 3.032rad | Successes 0
+Step   99841/150000 | Ep   360 | Reward     2.52 | Dist 0.1317m | Angle 2.741rad | Successes 0
+Step  102787/150000 | Ep   370 | Reward   -68.17 | Dist 0.1740m | Angle 2.940rad | Successes 0
+Step  105522/150000 | Ep   380 | Reward   -48.63 | Dist 0.2337m | Angle 2.423rad | Successes 0
+Step  108444/150000 | Ep   390 | Reward   -50.42 | Dist 0.2250m | Angle 2.604rad | Successes 0
+Step  110975/150000 | Ep   400 | Reward   -37.82 | Dist 0.2170m | Angle 2.093rad | Successes 0
+Step  113440/150000 | Ep   410 | Reward   -33.70 | Dist 0.1298m | Angle 2.582rad | Successes 0
+Step  116012/150000 | Ep   420 | Reward   -39.63 | Dist 0.1198m | Angle 2.311rad | Successes 0
+Step  119012/150000 | Ep   430 | Reward   -89.25 | Dist 0.1599m | Angle 2.614rad | Successes 0
+Step  122012/150000 | Ep   440 | Reward   -77.26 | Dist 0.0950m | Angle 3.140rad | Successes 0
+Step  124669/150000 | Ep   450 | Reward   -55.09 | Dist 0.2203m | Angle 3.013rad | Successes 0

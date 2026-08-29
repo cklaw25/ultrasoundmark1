@@ -1,0 +1,1 @@
+/usr/bin/bash: line 9: setsid: command not found
