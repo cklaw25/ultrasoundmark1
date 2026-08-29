@@ -1,0 +1,5 @@
+model: models/phase2_from_orientation_first_model_v1_oldscaling_3pct
+episode: 17/150
+final dist: 0.0115m
+final angle: 0.4368rad
+frames: 112

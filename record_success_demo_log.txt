@@ -1,0 +1,4 @@
+pybullet build time: Jun 11 2026 16:34:32
+argv[0]=
+Searching for a real success with models/phase2_from_orientation_first_model_v1_oldscaling_3pct ...
+  SUCCESS at episode 17/150: dist=0.0115m angle=0.437rad, 112 frames

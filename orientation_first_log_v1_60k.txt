@@ -1,0 +1,54 @@
+pybullet build time: Jun 11 2026 16:34:32
+Setting up orientation-first phase environment...
+argv[0]=
+C:\ultrasoundmark1\run_orientation_first_phase.py:76: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  a = 2 * np.arccos(float(np.clip(abs(qd[0]), -1.0, 1.0)))
+Environment OK
+
+Training orientation-first phase for 60000 timesteps...
+
+C:\ultrasoundmark1\run_orientation_first_phase.py:76: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  a = 2 * np.arccos(float(np.clip(abs(qd[0]), -1.0, 1.0)))
+Step     227/60000 | Ep    20 | MeanAngle(last20) 1.989rad | Successes 1/20 (5.0%)
+Step     608/60000 | Ep    40 | MeanAngle(last20) 1.830rad | Successes 4/40 (10.0%)
+Step     813/60000 | Ep    60 | MeanAngle(last20) 1.821rad | Successes 7/60 (11.7%)
+Step    1110/60000 | Ep    80 | MeanAngle(last20) 2.013rad | Successes 12/80 (15.0%)
+Step    1408/60000 | Ep   100 | MeanAngle(last20) 1.925rad | Successes 15/100 (15.0%)
+Step    1549/60000 | Ep   120 | MeanAngle(last20) 1.878rad | Successes 21/120 (17.5%)
+Step    2094/60000 | Ep   140 | MeanAngle(last20) 1.874rad | Successes 26/140 (18.6%)
+Step    2895/60000 | Ep   160 | MeanAngle(last20) 1.681rad | Successes 34/160 (21.2%)
+Step    4317/60000 | Ep   180 | MeanAngle(last20) 2.023rad | Successes 36/180 (20.0%)
+Step    6034/60000 | Ep   200 | MeanAngle(last20) 1.922rad | Successes 39/200 (19.5%)
+Step    7767/60000 | Ep   220 | MeanAngle(last20) 1.729rad | Successes 43/220 (19.5%)
+Step    9491/60000 | Ep   240 | MeanAngle(last20) 1.749rad | Successes 48/240 (20.0%)
+Step   11645/60000 | Ep   260 | MeanAngle(last20) 1.720rad | Successes 52/260 (20.0%)
+Step   13323/60000 | Ep   280 | MeanAngle(last20) 2.136rad | Successes 54/280 (19.3%)
+Step   15589/60000 | Ep   300 | MeanAngle(last20) 2.038rad | Successes 58/300 (19.3%)
+Step   17711/60000 | Ep   320 | MeanAngle(last20) 1.793rad | Successes 64/320 (20.0%)
+Step   19512/60000 | Ep   340 | MeanAngle(last20) 2.228rad | Successes 64/340 (18.8%)
+Step   20628/60000 | Ep   360 | MeanAngle(last20) 2.209rad | Successes 66/360 (18.3%)
+Step   22582/60000 | Ep   380 | MeanAngle(last20) 1.800rad | Successes 72/380 (18.9%)
+Step   24598/60000 | Ep   400 | MeanAngle(last20) 1.620rad | Successes 79/400 (19.8%)
+Step   26204/60000 | Ep   420 | MeanAngle(last20) 2.007rad | Successes 82/420 (19.5%)
+Step   28353/60000 | Ep   440 | MeanAngle(last20) 1.936rad | Successes 85/440 (19.3%)
+Step   30174/60000 | Ep   460 | MeanAngle(last20) 1.894rad | Successes 91/460 (19.8%)
+Step   32329/60000 | Ep   480 | MeanAngle(last20) 1.955rad | Successes 92/480 (19.2%)
+Step   33762/60000 | Ep   500 | MeanAngle(last20) 1.918rad | Successes 95/500 (19.0%)
+Step   35688/60000 | Ep   520 | MeanAngle(last20) 1.829rad | Successes 99/520 (19.0%)
+Step   37610/60000 | Ep   540 | MeanAngle(last20) 1.960rad | Successes 103/540 (19.1%)
+Step   39277/60000 | Ep   560 | MeanAngle(last20) 1.691rad | Successes 109/560 (19.5%)
+Step   40623/60000 | Ep   580 | MeanAngle(last20) 1.919rad | Successes 112/580 (19.3%)
+Step   42576/60000 | Ep   600 | MeanAngle(last20) 1.988rad | Successes 117/600 (19.5%)
+Step   44881/60000 | Ep   620 | MeanAngle(last20) 1.670rad | Successes 125/620 (20.2%)
+Step   46835/60000 | Ep   640 | MeanAngle(last20) 1.778rad | Successes 130/640 (20.3%)
+Step   48961/60000 | Ep   660 | MeanAngle(last20) 1.923rad | Successes 134/660 (20.3%)
+Step   51080/60000 | Ep   680 | MeanAngle(last20) 1.851rad | Successes 140/680 (20.6%)
+Step   53208/60000 | Ep   700 | MeanAngle(last20) 2.043rad | Successes 142/700 (20.3%)
+Step   55421/60000 | Ep   720 | MeanAngle(last20) 2.028rad | Successes 143/720 (19.9%)
+Step   57217/60000 | Ep   740 | MeanAngle(last20) 1.938rad | Successes 147/740 (19.9%)
+Step   59445/60000 | Ep   760 | MeanAngle(last20) 2.135rad | Successes 149/760 (19.6%)
+
+Orientation-first phase done: 152 successes / 767 episodes (19.8%)
+Model saved to models/orientation_first_model
+
+Next step (not run by this script): resume this model into run_phase2.py's RightArmRobotPhase2 env for the 'position on top' phase, e.g. SAC.load('models/orientation_first_model', env=phase2_env).

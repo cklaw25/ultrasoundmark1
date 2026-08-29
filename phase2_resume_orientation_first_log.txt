@@ -1,0 +1,80 @@
+pybullet build time: Jun 11 2026 16:34:32
+Setting up Phase 2 environment (resuming from orientation-first model)...
+argv[0]=
+Environment OK
+
+Loading orientation-first weights from models/orientation_first_model ...
+Training 200000 timesteps on the full position+orientation task...
+
+Step    3000/200000 | Ep    10 | Reward  -140.04 | Dist 0.2128m | Angle 2.520rad | Successes 0
+Step    6000/200000 | Ep    20 | Reward  -110.93 | Dist 0.2180m | Angle 2.261rad | Successes 0
+Step    9000/200000 | Ep    30 | Reward  -122.91 | Dist 0.0934m | Angle 2.764rad | Successes 0
+Step   12000/200000 | Ep    40 | Reward  -107.61 | Dist 0.1108m | Angle 2.778rad | Successes 0
+Step   15000/200000 | Ep    50 | Reward  -115.74 | Dist 0.1526m | Angle 1.571rad | Successes 0
+Step   18000/200000 | Ep    60 | Reward  -117.19 | Dist 0.1866m | Angle 3.082rad | Successes 0
+Step   21000/200000 | Ep    70 | Reward  -108.11 | Dist 0.0350m | Angle 2.470rad | Successes 0
+Step   24000/200000 | Ep    80 | Reward  -112.82 | Dist 0.2473m | Angle 2.745rad | Successes 0
+Step   27000/200000 | Ep    90 | Reward   -93.85 | Dist 0.2142m | Angle 2.640rad | Successes 0
+Step   30000/200000 | Ep   100 | Reward   -87.08 | Dist 0.1190m | Angle 2.700rad | Successes 0
+Step   33000/200000 | Ep   110 | Reward   -92.29 | Dist 0.1400m | Angle 3.093rad | Successes 0
+Step   35927/200000 | Ep   120 | Reward   -70.08 | Dist 0.3065m | Angle 3.085rad | Successes 0
+Step   38850/200000 | Ep   130 | Reward   -72.39 | Dist 0.1866m | Angle 2.063rad | Successes 0
+Step   41850/200000 | Ep   140 | Reward  -101.03 | Dist 0.0666m | Angle 3.074rad | Successes 0
+Step   44725/200000 | Ep   150 | Reward   -76.39 | Dist 0.1670m | Angle 2.942rad | Successes 0
+Step   47645/200000 | Ep   160 | Reward   -69.72 | Dist 0.0934m | Angle 2.818rad | Successes 0
+Step   50461/200000 | Ep   170 | Reward   -93.60 | Dist 0.1259m | Angle 3.007rad | Successes 0
+Step   53251/200000 | Ep   180 | Reward   -68.06 | Dist 0.2052m | Angle 2.458rad | Successes 0
+Step   56251/200000 | Ep   190 | Reward   -86.31 | Dist 0.1265m | Angle 3.112rad | Successes 0
+Step   59174/200000 | Ep   200 | Reward   -85.31 | Dist 0.0760m | Angle 2.980rad | Successes 0
+Step   62174/200000 | Ep   210 | Reward   -83.51 | Dist 0.2208m | Angle 2.924rad | Successes 0
+Step   65174/200000 | Ep   220 | Reward   -83.17 | Dist 0.1712m | Angle 2.406rad | Successes 0
+Step   68174/200000 | Ep   230 | Reward   -78.37 | Dist 0.0900m | Angle 2.830rad | Successes 0
+Step   71070/200000 | Ep   240 | Reward   -60.08 | Dist 0.1929m | Angle 2.852rad | Successes 0
+Step   73843/200000 | Ep   250 | Reward   -60.56 | Dist 0.2348m | Angle 2.874rad | Successes 0
+Step   76843/200000 | Ep   260 | Reward   -96.64 | Dist 0.1998m | Angle 2.529rad | Successes 0
+Step   79843/200000 | Ep   270 | Reward   -86.07 | Dist 0.1936m | Angle 3.081rad | Successes 0
+Step   82478/200000 | Ep   280 | Reward   -49.36 | Dist 0.1283m | Angle 2.689rad | Successes 0
+Step   85428/200000 | Ep   290 | Reward   -73.99 | Dist 0.2278m | Angle 3.043rad | Successes 0
+Step   88263/200000 | Ep   300 | Reward   -69.71 | Dist 0.0948m | Angle 2.898rad | Successes 0
+Step   91263/200000 | Ep   310 | Reward   -84.85 | Dist 0.2095m | Angle 2.675rad | Successes 0
+Step   94068/200000 | Ep   320 | Reward   -63.16 | Dist 0.1857m | Angle 1.728rad | Successes 0
+Step   97068/200000 | Ep   330 | Reward   -86.02 | Dist 0.1118m | Angle 2.106rad | Successes 0
+Step  100068/200000 | Ep   340 | Reward   -80.27 | Dist 0.2399m | Angle 3.057rad | Successes 0
+Step  103068/200000 | Ep   350 | Reward   -70.28 | Dist 0.1054m | Angle 3.015rad | Successes 0
+Step  106068/200000 | Ep   360 | Reward   -76.61 | Dist 0.1892m | Angle 2.892rad | Successes 0
+Step  108777/200000 | Ep   370 | Reward   -56.95 | Dist 0.1578m | Angle 2.776rad | Successes 0
+Step  111777/200000 | Ep   380 | Reward   -94.62 | Dist 0.1295m | Angle 2.025rad | Successes 0
+Step  114637/200000 | Ep   390 | Reward   -56.39 | Dist 0.1707m | Angle 2.280rad | Successes 0
+Step  117637/200000 | Ep   400 | Reward   -87.85 | Dist 0.1996m | Angle 2.757rad | Successes 0
+Step  120637/200000 | Ep   410 | Reward   -78.60 | Dist 0.2783m | Angle 2.426rad | Successes 0
+Step  123637/200000 | Ep   420 | Reward   -78.43 | Dist 0.2001m | Angle 3.118rad | Successes 0
+Step  126238/200000 | Ep   430 | Reward   -65.42 | Dist 0.2249m | Angle 2.920rad | Successes 0
+Step  129238/200000 | Ep   440 | Reward   -86.36 | Dist 0.0650m | Angle 2.553rad | Successes 0
+Step  131859/200000 | Ep   450 | Reward   -52.97 | Dist 0.1473m | Angle 3.106rad | Successes 0
+Step  134859/200000 | Ep   460 | Reward   -90.10 | Dist 0.2755m | Angle 2.577rad | Successes 0
+Step  137542/200000 | Ep   470 | Reward   -50.08 | Dist 0.0878m | Angle 2.376rad | Successes 0
+Step  140164/200000 | Ep   480 | Reward   -49.66 | Dist 0.1554m | Angle 2.993rad | Successes 0
+Step  143164/200000 | Ep   490 | Reward   -77.45 | Dist 0.1913m | Angle 2.394rad | Successes 0
+Step  146164/200000 | Ep   500 | Reward   -79.67 | Dist 0.1169m | Angle 1.606rad | Successes 0
+Step  149027/200000 | Ep   510 | Reward   -87.46 | Dist 0.1948m | Angle 2.682rad | Successes 0
+Step  151675/200000 | Ep   520 | Reward   -49.51 | Dist 0.0692m | Angle 3.010rad | Successes 0
+Step  154650/200000 | Ep   530 | Reward   -72.42 | Dist 0.1710m | Angle 3.004rad | Successes 0
+Step  157524/200000 | Ep   540 | Reward   -63.93 | Dist 0.1759m | Angle 3.025rad | Successes 0
+Step  160524/200000 | Ep   550 | Reward  -106.58 | Dist 0.2013m | Angle 2.450rad | Successes 0
+Step  163086/200000 | Ep   560 | Reward   -49.15 | Dist 0.0899m | Angle 2.942rad | Successes 0
+Step  165904/200000 | Ep   570 | Reward   -55.40 | Dist 0.1985m | Angle 2.907rad | Successes 0
+Step  168610/200000 | Ep   580 | Reward   -61.28 | Dist 0.1717m | Angle 3.010rad | Successes 0
+Step  171393/200000 | Ep   590 | Reward   -63.54 | Dist 0.2905m | Angle 2.983rad | Successes 0
+Step  174393/200000 | Ep   600 | Reward   -88.16 | Dist 0.1893m | Angle 1.827rad | Successes 0
+Step  177227/200000 | Ep   610 | Reward   -53.90 | Dist 0.1873m | Angle 2.929rad | Successes 0
+Step  179931/200000 | Ep   620 | Reward   -57.19 | Dist 0.1452m | Angle 2.478rad | Successes 0
+Step  182463/200000 | Ep   630 | Reward   -56.07 | Dist 0.2002m | Angle 2.597rad | Successes 0
+Step  185463/200000 | Ep   640 | Reward   -75.14 | Dist 0.1091m | Angle 2.905rad | Successes 0
+Step  188218/200000 | Ep   650 | Reward   -64.50 | Dist 0.0834m | Angle 2.977rad | Successes 0
+Step  191218/200000 | Ep   660 | Reward   -85.67 | Dist 0.2457m | Angle 2.695rad | Successes 0
+Step  194218/200000 | Ep   670 | Reward   -85.42 | Dist 0.1623m | Angle 2.973rad | Successes 0
+Step  197155/200000 | Ep   680 | Reward   -58.92 | Dist 0.1800m | Angle 2.527rad | Successes 0
+Step  199860/200000 | Ep   690 | Reward   -68.75 | Dist 0.2237m | Angle 2.768rad | Successes 0
+
+Phase 2 done: 0 successes / 690 episodes (0.0%)
+Model saved to models/phase2_from_orientation_first_model

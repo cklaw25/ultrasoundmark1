@@ -1,0 +1,28 @@
+pybullet build time: Jun 11 2026 16:34:32
+Setting up Phase 2 environment (IK warm-start resume #2)...
+argv[0]=
+Environment OK
+
+Resuming IK warm-start RL fine-tune from models/checkpoints_ik_warmstart/ik_warmstart_resume_ckpt_150000_steps (step 150000/200000)...
+Training remaining 50000 timesteps (to reach the original 200000 target)...
+
+Step    2956/50000 | Ep    10 | Reward   -91.58 | Dist 0.2021m | Angle 2.957rad | Successes 0
+Step    5844/50000 | Ep    20 | Reward   -78.79 | Dist 0.1598m | Angle 2.804rad | Successes 0
+Step    8686/50000 | Ep    30 | Reward  -101.05 | Dist 0.2491m | Angle 3.038rad | Successes 0
+Step   11218/50000 | Ep    40 | Reward   -39.64 | Dist 0.1941m | Angle 3.118rad | Successes 0
+Step   14017/50000 | Ep    50 | Reward   -62.13 | Dist 0.2149m | Angle 2.599rad | Successes 0
+Step   16896/50000 | Ep    60 | Reward   -80.04 | Dist 0.2366m | Angle 2.863rad | Successes 0
+Step   19706/50000 | Ep    70 | Reward   -86.82 | Dist 0.2107m | Angle 2.496rad | Successes 0
+Step   22469/50000 | Ep    80 | Reward   -60.94 | Dist 0.1491m | Angle 3.072rad | Successes 0
+Step   25469/50000 | Ep    90 | Reward   -94.38 | Dist 0.2091m | Angle 3.084rad | Successes 0
+Step   28469/50000 | Ep   100 | Reward   -76.24 | Dist 0.1500m | Angle 2.386rad | Successes 0
+Step   31198/50000 | Ep   110 | Reward   -78.15 | Dist 0.2056m | Angle 3.042rad | Successes 0
+Step   34100/50000 | Ep   120 | Reward   -94.82 | Dist 0.2264m | Angle 2.817rad | Successes 0
+Step   37100/50000 | Ep   130 | Reward   -90.69 | Dist 0.1569m | Angle 2.763rad | Successes 0
+Step   39957/50000 | Ep   140 | Reward   -76.51 | Dist 0.2221m | Angle 3.072rad | Successes 0
+Step   42719/50000 | Ep   150 | Reward   -68.67 | Dist 0.1956m | Angle 2.583rad | Successes 0
+Step   45376/50000 | Ep   160 | Reward   -61.91 | Dist 0.1247m | Angle 2.645rad | Successes 0
+Step   48376/50000 | Ep   170 | Reward   -88.83 | Dist 0.0973m | Angle 3.001rad | Successes 0
+
+Phase 2 done: 0 successes / 175 episodes (0.0%)
+Model saved to models/ik_warmstart_model
